@@ -1,3 +1,4 @@
+import java.util.HashSet;
 public class Main {
 
     public static void main(String[] args) {
@@ -18,5 +19,15 @@ public class Main {
 
         System.out.println("\nEmployés triés par nom de département, puis par grade : ");
         societe.displayEmploye();
+        DepartementHashSet<Departement> service = new DepartementHashSet<>();
+
+        Departement d4 = new Departement(4, "dep4", 10);
+        service.ajouterDepartement(d4);
+        service.displayDepartement();
+
+       // service.supprimerDepartement();
+
+        service.displayDepartement();
+
     }
 }
