@@ -12,7 +12,7 @@ public class AffectationHashMap {
     }
     void afficherEmployesEtDepartements(){
         for(Map.Entry<Employe,Departement> e : employeDep.entrySet()){
-            System.out.println(e.getKey().getNom() + " " + e.getKey().getPrenom() + " is in the " + e.getValue().getNomDep()+ " Departement");
+            System.out.println(e.getKey().getNom() + " " + e.getKey().getPrenom() + " is in the " + e.getValue().getNomDépartement()+ " Departement");
         }
     }
 

@@ -23,6 +23,7 @@ public class Departement {
         public String getNom() {
             return nom;
         }
+    public String getNomDépartement() {return getNomDépartement();}
 
         public void setNom(String nom) {
             this.nom = nom;

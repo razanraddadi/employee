@@ -54,7 +54,7 @@ class SocieteArrayList extends Employe implements IGestion<Employe> {
     @Override
     public void trierEmployeParNomDepartementEtGrade() {
         Collections.sort(listeEmployes, Comparator
-                .comparing(Employe::getNomDepartement)
+                .comparing(Employe::getNomDépartement)
                 .thenComparingInt(Employe::getGrade)
         );
     }

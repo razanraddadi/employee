@@ -22,7 +22,7 @@ public class Employe {
         return prenom;
     }
 
-    public String getNomDepartement() {
+    public String getNomDépartement() {
         return nomDépartement;
     }
 
